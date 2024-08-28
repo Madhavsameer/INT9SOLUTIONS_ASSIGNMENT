@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import '../styles/home.css'; // Import the updated CSS file
 
 const DEV_URL = "http://localhost:5000"
-const PROD_URL = "https://int9solutions-assignment-1.onrender.com/"
+const PROD_URL = "https://int9solutions-assignment-1.onrender.com"
 const BASE_URL = process.env.NODE_ENV === 'production' ? PROD_URL : DEV_URL;
 
 function Home() {
