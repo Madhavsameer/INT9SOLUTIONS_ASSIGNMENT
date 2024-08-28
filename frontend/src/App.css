@@ -1,0 +1,13 @@
+/* app.css */
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e9ecef;
+}
+
+/* Container for App Component */
+.app-container {
+  min-height: 100vh;
+}
