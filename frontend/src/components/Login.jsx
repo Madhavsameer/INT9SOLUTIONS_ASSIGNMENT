@@ -16,7 +16,7 @@ const BASE_URL = process.env.NODE_ENV === 'production' ? PROD_URL : DEV_URL;
     event.preventDefault();
 
     try {
-      const response = await axios.post(`${BASE_URL}/api/auth/login`, { username, password });
+      const response = await axios.post(`${PROD_URL}/api/auth/login`, { username, password });
       if (response.data.token) {
         localStorage.setItem('authToken', response.data.token);
         navigate('/home');
