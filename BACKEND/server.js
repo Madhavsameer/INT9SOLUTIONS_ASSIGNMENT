@@ -6,7 +6,6 @@ const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 const authRoutes = require('./routes/authRoutes');
 const sellerRoutes = require('./routes/sellerRoutes');
-import axios from 'axios';
 const axios= require('axios');
 
 dotenv.config();
