@@ -1,6 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,5 +20,6 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.4"
+    "axios": "^1.7.5",
   }
 }
