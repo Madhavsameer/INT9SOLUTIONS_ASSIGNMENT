@@ -1,3 +1,5 @@
+Find the login credentials in the credentials.txt file in root directory
+
 For creating a user credentials Send a request to the below api using postman with the json format given below:- 
 URL: https://int9solutions-assignment-1.onrender.com/api/auth/register
 {
