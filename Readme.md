@@ -33,6 +33,21 @@ URL: https://int9solutions-assignment-1.onrender.com/api/sellers
 }
 
 for changing database open backend directory and change the MONGO_URL following databse name in .env file use your own local MONGO_URL or MongoDb Atlas URL following databse name
+For creating a user credentials in local databse Send a request to the below api using postman with the json format given below:- 
+URL: http://localhost:5000/api/auth/register
+{
+  "username": "sameer",
+  "password": "123456789"
+}
+
+For creating a Seller data in local database Send a request to the below api using postman with the json format below :-
+URL: http://localhost:5000//api/sellers
+
+{
+  "name": " Aditya Yadav",
+  "rating": 5,
+  "review": "Amazing quality"
+}
 
 
 Thanks !!
